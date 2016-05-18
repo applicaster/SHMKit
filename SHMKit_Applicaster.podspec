@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SHMKit_Applicaster'
-  s.version      = '0.1.2'
+  s.version      = '0.1.3'
   s.platform = :ios
 	s.ios.deployment_target = "8.0"
   s.summary      = "A generic client for Siren Hypermedia APIs"
@@ -8,9 +8,8 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.authors      = "Matt Dobson"
   s.source       = {
-                     :git => 'git@github.com:applicaster/SHMKit.git',
+                     :git => 'https://github.com/applicaster/SHMKit.git',
                      :tag => s.version.to_s
-
   }
   s.source_files = 'SHMKit/**/*.{h,m}'
   s.public_header_files = 'SHMKit/**/*.h'
