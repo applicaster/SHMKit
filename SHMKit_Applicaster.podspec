@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'SHMKit_Applicaster'
-  s.version      = '0.1.3'
+  s.version      = '0.2.0'
   s.platform = :ios
-	s.ios.deployment_target = "8.0"
+	s.ios.deployment_target = "9.0"
   s.summary      = "A generic client for Siren Hypermedia APIs"
   s.homepage     = "https://github.com/mdobson/SHMKit"
   s.license      = 'MIT'
@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'SHMKit/**/*.{h,m}'
   s.public_header_files = 'SHMKit/**/*.h'
-  # s.exclude_files = 'ApplicasterSDK/**/non-arc/*','**/*Tests.m'
-  s.requires_arc = true
+  s.static_framework = true
 
 end
