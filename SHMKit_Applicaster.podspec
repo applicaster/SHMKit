@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SHMKit_Applicaster'
-  s.version      = '0.2.0'
+  s.version      = '0.3.0'
   s.platform = :ios
 	s.ios.deployment_target = "9.0"
   s.summary      = "A generic client for Siren Hypermedia APIs"
